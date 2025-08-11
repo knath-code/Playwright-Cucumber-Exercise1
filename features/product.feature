@@ -10,8 +10,7 @@ Feature: Product Feature
   And I sort products by "<sort>"
   Then I verify product are sorted by price in "<order>" 
 
-  Examples:
-   
+  Examples:   
     | sort                   |  order         |
     | Price (7.99 to 49.99)  | Ascending      |
     | Price (49.99 to 7.99)  | Descending     |
