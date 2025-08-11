@@ -15,5 +15,5 @@ Feature: Purchase Feature
 
   And I continue to the overview page 
   And complete the purchase
-  And I should see the confirmation message "'Thank you for your order!'
+  And I should see the confirmation message "Thank you for your order!"
    
